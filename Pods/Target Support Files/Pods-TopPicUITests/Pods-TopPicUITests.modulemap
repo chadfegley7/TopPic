@@ -1,0 +1,6 @@
+framework module Pods_TopPicUITests {
+  umbrella header "Pods-TopPicUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
