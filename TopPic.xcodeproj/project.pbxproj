@@ -19,6 +19,11 @@
 		E59BF8E41F1C4AE600AE1379 /* TopPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BF8E31F1C4AE600AE1379 /* TopPicUITests.swift */; };
 		E59BF8F21F1C4B0400AE1379 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E59BF8F11F1C4B0400AE1379 /* GoogleService-Info.plist */; };
 		E5EB99E21F1EB47B00B84699 /* Lemonada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5EB99E11F1EB47B00B84699 /* Lemonada-Regular.ttf */; };
+		E5EB99E41F1ECC2F00B84699 /* DesignerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB99E31F1ECC2F00B84699 /* DesignerView.swift */; };
+		E5EB99E71F1ECCC300B84699 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB99E61F1ECCC300B84699 /* Constants.swift */; };
+		E5EB99E91F1ECEBF00B84699 /* RoundButt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB99E81F1ECEBF00B84699 /* RoundButt.swift */; };
+		E5EB99EB1F1ED2F100B84699 /* DesignerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB99EA1F1ED2F100B84699 /* DesignerField.swift */; };
+		E5EB99ED1F1ED43C00B84699 /* DesignerButt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB99EC1F1ED43C00B84699 /* DesignerButt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		E59BF8E51F1C4AE600AE1379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E59BF8F11F1C4B0400AE1379 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E5EB99E11F1EB47B00B84699 /* Lemonada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lemonada-Regular.ttf"; sourceTree = "<group>"; };
+		E5EB99E31F1ECC2F00B84699 /* DesignerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignerView.swift; sourceTree = "<group>"; };
+		E5EB99E61F1ECCC300B84699 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E5EB99E81F1ECEBF00B84699 /* RoundButt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButt.swift; sourceTree = "<group>"; };
+		E5EB99EA1F1ED2F100B84699 /* DesignerField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignerField.swift; sourceTree = "<group>"; };
+		E5EB99EC1F1ED43C00B84699 /* DesignerButt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignerButt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +151,7 @@
 		E59BF8C21F1C4AE600AE1379 /* TopPic */ = {
 			isa = PBXGroup;
 			children = (
+				E5EB99E51F1ECCB200B84699 /* Utilities */,
 				E5EB99E01F1EB45700B84699 /* Fonts */,
 				E59BF8F51F1C4B1500AE1379 /* Controller */,
 				E59BF8F41F1C4B1000AE1379 /* View */,
@@ -183,6 +194,10 @@
 		E59BF8F41F1C4B1000AE1379 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E5EB99E31F1ECC2F00B84699 /* DesignerView.swift */,
+				E5EB99E81F1ECEBF00B84699 /* RoundButt.swift */,
+				E5EB99EA1F1ED2F100B84699 /* DesignerField.swift */,
+				E5EB99EC1F1ED43C00B84699 /* DesignerButt.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -201,6 +216,14 @@
 				E5EB99E11F1EB47B00B84699 /* Lemonada-Regular.ttf */,
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		E5EB99E51F1ECCB200B84699 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB99E61F1ECCC300B84699 /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -489,8 +512,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EB99E41F1ECC2F00B84699 /* DesignerView.swift in Sources */,
+				E5EB99EB1F1ED2F100B84699 /* DesignerField.swift in Sources */,
 				E59BF8C61F1C4AE600AE1379 /* SignInVC.swift in Sources */,
+				E5EB99E91F1ECEBF00B84699 /* RoundButt.swift in Sources */,
+				E5EB99ED1F1ED43C00B84699 /* DesignerButt.swift in Sources */,
 				E59BF8C41F1C4AE600AE1379 /* AppDelegate.swift in Sources */,
+				E5EB99E71F1ECCC300B84699 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
