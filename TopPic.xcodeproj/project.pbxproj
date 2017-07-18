@@ -18,6 +18,7 @@
 		E59BF8D91F1C4AE600AE1379 /* TopPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BF8D81F1C4AE600AE1379 /* TopPicTests.swift */; };
 		E59BF8E41F1C4AE600AE1379 /* TopPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BF8E31F1C4AE600AE1379 /* TopPicUITests.swift */; };
 		E59BF8F21F1C4B0400AE1379 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E59BF8F11F1C4B0400AE1379 /* GoogleService-Info.plist */; };
+		E5EB99E21F1EB47B00B84699 /* Lemonada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5EB99E11F1EB47B00B84699 /* Lemonada-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E59BF8E31F1C4AE600AE1379 /* TopPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicUITests.swift; sourceTree = "<group>"; };
 		E59BF8E51F1C4AE600AE1379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E59BF8F11F1C4B0400AE1379 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5EB99E11F1EB47B00B84699 /* Lemonada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lemonada-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		E59BF8C21F1C4AE600AE1379 /* TopPic */ = {
 			isa = PBXGroup;
 			children = (
+				E5EB99E01F1EB45700B84699 /* Fonts */,
 				E59BF8F51F1C4B1500AE1379 /* Controller */,
 				E59BF8F41F1C4B1000AE1379 /* View */,
 				E59BF8F31F1C4B0B00AE1379 /* Model */,
@@ -190,6 +193,14 @@
 				E59BF8C51F1C4AE600AE1379 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		E5EB99E01F1EB45700B84699 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB99E11F1EB47B00B84699 /* Lemonada-Regular.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59BF8CE1F1C4AE600AE1379 /* LaunchScreen.storyboard in Resources */,
+				E5EB99E21F1EB47B00B84699 /* Lemonada-Regular.ttf in Resources */,
 				E59BF8F21F1C4B0400AE1379 /* GoogleService-Info.plist in Resources */,
 				E59BF8CB1F1C4AE600AE1379 /* Assets.xcassets in Resources */,
 				E59BF8C91F1C4AE600AE1379 /* Main.storyboard in Resources */,
@@ -737,6 +749,7 @@
 				E59BF8EA1F1C4AE600AE1379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E59BF8EB1F1C4AE600AE1379 /* Build configuration list for PBXNativeTarget "TopPicTests" */ = {
 			isa = XCConfigurationList;
@@ -745,6 +758,7 @@
 				E59BF8ED1F1C4AE600AE1379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E59BF8EE1F1C4AE600AE1379 /* Build configuration list for PBXNativeTarget "TopPicUITests" */ = {
 			isa = XCConfigurationList;
@@ -753,6 +767,7 @@
 				E59BF8F01F1C4AE600AE1379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
