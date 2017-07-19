@@ -45,5 +45,25 @@
 	<array>
 		<string>&quot;Lemonada-Regular.ttf&quot;</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb852931311537395</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>852931311537395</string>
+	<key>Expozure</key>
+	<string>Expozure</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
 </dict>
 </plist>
