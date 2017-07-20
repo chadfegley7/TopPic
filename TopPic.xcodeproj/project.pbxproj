@@ -12,6 +12,7 @@
 		AEDE7EC3A2CD0052D1941452 /* Pods_TopPicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3725C28D96A7DE19F6CAFF /* Pods_TopPicTests.framework */; };
 		E53C35431F20370700753B32 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C35421F20370700753B32 /* FeedVC.swift */; };
 		E53C35451F205E6100753B32 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C35441F205E6100753B32 /* CircleView.swift */; };
+		E53C35471F2078D300753B32 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C35461F2078D300753B32 /* PostCell.swift */; };
 		E59BF8C41F1C4AE600AE1379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BF8C31F1C4AE600AE1379 /* AppDelegate.swift */; };
 		E59BF8C61F1C4AE600AE1379 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BF8C51F1C4AE600AE1379 /* SignInVC.swift */; };
 		E59BF8C91F1C4AE600AE1379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59BF8C71F1C4AE600AE1379 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		E59BF8D91F1C4AE600AE1379 /* TopPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BF8D81F1C4AE600AE1379 /* TopPicTests.swift */; };
 		E59BF8E41F1C4AE600AE1379 /* TopPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BF8E31F1C4AE600AE1379 /* TopPicUITests.swift */; };
 		E59BF8F21F1C4B0400AE1379 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E59BF8F11F1C4B0400AE1379 /* GoogleService-Info.plist */; };
+		E5A019361F215C3D005F81A1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A019351F215C3D005F81A1 /* DataService.swift */; };
 		E5EB99E21F1EB47B00B84699 /* Lemonada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5EB99E11F1EB47B00B84699 /* Lemonada-Regular.ttf */; };
 		E5EB99E41F1ECC2F00B84699 /* DesignerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB99E31F1ECC2F00B84699 /* DesignerView.swift */; };
 		E5EB99E71F1ECCC300B84699 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB99E61F1ECCC300B84699 /* Constants.swift */; };
@@ -62,6 +64,7 @@
 		DC3725C28D96A7DE19F6CAFF /* Pods_TopPicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopPicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53C35421F20370700753B32 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		E53C35441F205E6100753B32 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		E53C35461F2078D300753B32 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		E59BF8C01F1C4AE600AE1379 /* TopPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59BF8C31F1C4AE600AE1379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E59BF8C51F1C4AE600AE1379 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -76,6 +79,7 @@
 		E59BF8E31F1C4AE600AE1379 /* TopPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicUITests.swift; sourceTree = "<group>"; };
 		E59BF8E51F1C4AE600AE1379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E59BF8F11F1C4B0400AE1379 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5A019351F215C3D005F81A1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E5EB99E11F1EB47B00B84699 /* Lemonada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lemonada-Regular.ttf"; sourceTree = "<group>"; };
 		E5EB99E31F1ECC2F00B84699 /* DesignerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignerView.swift; sourceTree = "<group>"; };
 		E5EB99E61F1ECCC300B84699 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -175,6 +179,7 @@
 		E59BF8C21F1C4AE600AE1379 /* TopPic */ = {
 			isa = PBXGroup;
 			children = (
+				E5A019341F215C21005F81A1 /* Services */,
 				E5EB99E51F1ECCB200B84699 /* Utilities */,
 				E5EB99E01F1EB45700B84699 /* Fonts */,
 				E59BF8F51F1C4B1500AE1379 /* Controller */,
@@ -223,6 +228,7 @@
 				E5EB99EA1F1ED2F100B84699 /* DesignerField.swift */,
 				E5EB99EC1F1ED43C00B84699 /* DesignerButt.swift */,
 				E53C35441F205E6100753B32 /* CircleView.swift */,
+				E53C35461F2078D300753B32 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -234,6 +240,14 @@
 				E53C35421F20370700753B32 /* FeedVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		E5A019341F215C21005F81A1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E5A019351F215C3D005F81A1 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		E5EB99E01F1EB45700B84699 /* Fonts */ = {
@@ -543,10 +557,12 @@
 				E53C35431F20370700753B32 /* FeedVC.swift in Sources */,
 				E5EB99EB1F1ED2F100B84699 /* DesignerField.swift in Sources */,
 				E59BF8C61F1C4AE600AE1379 /* SignInVC.swift in Sources */,
+				E5A019361F215C3D005F81A1 /* DataService.swift in Sources */,
 				E5EB99E91F1ECEBF00B84699 /* RoundButt.swift in Sources */,
 				E5EB99ED1F1ED43C00B84699 /* DesignerButt.swift in Sources */,
 				E59BF8C41F1C4AE600AE1379 /* AppDelegate.swift in Sources */,
 				E5EB99E71F1ECCC300B84699 /* Constants.swift in Sources */,
+				E53C35471F2078D300753B32 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
