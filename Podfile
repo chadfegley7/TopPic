@@ -21,6 +21,8 @@ target 'TopPic' do
   pod 'FacebookLogin'
   
   pod 'FacebookShare', :git => 'https://github.com/1amageek/facebook-sdk-swift'
+  
+  pod 'SwiftKeychainWrapper'
 
   target 'TopPicTests' do
     inherit! :search_paths

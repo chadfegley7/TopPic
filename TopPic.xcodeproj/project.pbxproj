@@ -10,6 +10,7 @@
 		8AC2DB2AC88F80D3068BB493 /* Pods_TopPicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225FA5F2188D665F1EC5B011 /* Pods_TopPicUITests.framework */; };
 		93FC8CE6B9C35A73DF3DFD2B /* Pods_TopPic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A60510E7552A2083BDBDA9 /* Pods_TopPic.framework */; };
 		AEDE7EC3A2CD0052D1941452 /* Pods_TopPicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3725C28D96A7DE19F6CAFF /* Pods_TopPicTests.framework */; };
+		E53C35431F20370700753B32 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C35421F20370700753B32 /* FeedVC.swift */; };
 		E59BF8C41F1C4AE600AE1379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BF8C31F1C4AE600AE1379 /* AppDelegate.swift */; };
 		E59BF8C61F1C4AE600AE1379 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BF8C51F1C4AE600AE1379 /* SignInVC.swift */; };
 		E59BF8C91F1C4AE600AE1379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59BF8C71F1C4AE600AE1379 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		963AB638645434E61543EF66 /* Pods-TopPicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopPicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopPicTests/Pods-TopPicTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B76F2E9680CF3DA4CFF2FE6C /* Pods-TopPicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopPicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopPicTests/Pods-TopPicTests.release.xcconfig"; sourceTree = "<group>"; };
 		DC3725C28D96A7DE19F6CAFF /* Pods_TopPicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopPicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53C35421F20370700753B32 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		E59BF8C01F1C4AE600AE1379 /* TopPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59BF8C31F1C4AE600AE1379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E59BF8C51F1C4AE600AE1379 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				E59BF8C51F1C4AE600AE1379 /* SignInVC.swift */,
+				E53C35421F20370700753B32 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -533,6 +536,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5EB99E41F1ECC2F00B84699 /* DesignerView.swift in Sources */,
+				E53C35431F20370700753B32 /* FeedVC.swift in Sources */,
 				E5EB99EB1F1ED2F100B84699 /* DesignerField.swift in Sources */,
 				E59BF8C61F1C4AE600AE1379 /* SignInVC.swift in Sources */,
 				E5EB99E91F1ECEBF00B84699 /* RoundButt.swift in Sources */,
