@@ -166,7 +166,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ExpoZures" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izC-sK-z0m">
-                                        <rect key="frame" x="128" y="18" width="120.5" height="29.5"/>
+                                        <rect key="frame" x="127.5" y="18.5" width="120.5" height="29.5"/>
                                         <fontDescription key="fontDescription" name="Lemonada-Regular" family="Lemonada" pointSize="25"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -194,13 +194,17 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hsw-qy-5J1">
                                         <rect key="frame" x="8" y="8" width="327" height="49"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="tmw-Q5-OP5" customClass="CircleView" customModule="TopPic" customModuleProvider="target">
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="tmw-Q5-OP5" customClass="CircleView" customModule="TopPic" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="49" height="49"/>
                                                 <color key="backgroundColor" red="0.4039215686" green="0.2274509804" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="49" id="TSA-6S-ubv"/>
                                                     <constraint firstAttribute="width" constant="49" id="UFe-VM-C0j"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="rUb-Se-DZz" appends="YES" id="MdW-n9-rG0"/>
+                                                </connections>
                                             </imageView>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add a caption" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gcc-Mk-jWG" customClass="DesignerField" customModule="TopPic" customModuleProvider="target">
                                                 <rect key="frame" x="59" y="0.0" width="209" height="49"/>
@@ -297,6 +301,7 @@
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1580" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1F-bX-Z7k">
                                                                     <rect key="frame" x="43" y="0.0" width="31.5" height="16.5"/>
+                                                                    <accessibility key="accessibilityConfiguration" identifier="likesLabel"/>
                                                                     <fontDescription key="fontDescription" name="Lemonada-Regular" family="Lemonada" pointSize="14"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.54000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -323,6 +328,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="r9S-2p-HI8" secondAttribute="bottom" constant="8" id="hnD-wq-VEr"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="captionText" destination="5Ug-4D-cYB" id="auL-vY-txz"/>
+                                            <outlet property="imgPost" destination="yCv-Dt-6Dw" id="43I-Eh-mQA"/>
+                                            <outlet property="likesLbl" destination="s1F-bX-Z7k" id="Ku8-bQ-nRx"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -342,6 +352,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageAdd" destination="tmw-Q5-OP5" id="9pC-2Y-hJQ"/>
                         <outlet property="tableView" destination="9Ae-rQ-29w" id="0qZ-GO-HNi"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="P3w-mu-yym"/>
                     </connections>
@@ -350,6 +361,11 @@
                 <tapGestureRecognizer id="h1Z-WB-KWt">
                     <connections>
                         <action selector="signOutTapped:" destination="MjI-ME-11T" id="bxO-s0-jyO"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="rUb-Se-DZz">
+                    <connections>
+                        <action selector="chooseImageTapped:" destination="MjI-ME-11T" id="9yg-zn-YVN"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
