@@ -19,6 +19,8 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
     var posts = [Post]()
     
     var imagePicker: UIImagePickerController!
+    
+    static var imageCache: NSCache<NSString, UIImage> = NSCache()
 
     override func viewDidLoad() {
         
@@ -80,9 +82,19 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
         
         if let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as? PostCell{
             
-            cell.configureCell(post: post)
-            
-            return cell
+            if let img = FeedVC.imageCache.object(forKey: post.imageUrl as NSString) {
+                
+                cell.configureCell(post: post, img: img)
+                
+                return cell
+                
+            } else {
+                
+                cell.configureCell(post: post, img: nil)
+                
+                return cell
+                
+            }
             
         } else {
             
